@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <th class="head">Ace</th>
+            <th class="head">2</th>
+            <th class="head">3</th>
+            <th class="head">4</th>
+            <th class="head">5</th>
+            <th class="head">6</th>
+            <th class="head">7</th>
+            <th class="head">8</th>
+            <th class="head">9</th>
+            <th class="head">10</th>
+            <th class="head">Jack</th>
+            <th class="head">Queen</th>
+            <th class="head">King</th>
+        </tr>
+        <tr>
+            <td class="suit" id="ace">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="two">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="three">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="four">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="five">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="six">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="seven">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="eight">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="nine">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="ten">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="jack">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="queen">♠ ♥ ♣ ♦</td>
+            <td class="suit" id="king">♠ ♥ ♣ ♦</td>
+        </tr>
+    </table>
+    <br>
+    <table id="playertable">
+        <tr id="playerTh">
+            <th class="player" colspan="2">Player cards:</th>
+            <th></th>
+            <th class="scoreheading">Score:</th>
+        </tr>
+        <tr id="playerCards">
+            <td class="playerCard">None</td>
+            <td class="playerCard">None</td>
+            <td class="score"></td>
+            <td class="score" id="playerScore">0</td>
+        </tr>
+    </table>
+    <br>
+    <table id="dealertable">
+        <tr id="dealerTh">
+            <th class="player" colspan="2">Dealer cards:</th>
+            <th></th>
+            <th class="scoreheading">Score:</th>
+        </tr>
+        <tr id="dealerCards">
+            <td class="dealerCard">None</td>
+            <td class="dealerCard">None</td>
+            <td class="score"></td>
+            <td class="score" id="dealerScore">0</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <button id="deal">Deal</button>
+    <button id="hit">Hit</button>
+    <button id="pass">Pass</button>
+    <button id="playAgain">Play Again</button>
+    <script src="myscript.js"></script>
+</body>
+
+</html>

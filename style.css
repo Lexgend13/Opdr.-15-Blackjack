@@ -1,0 +1,74 @@
+.suit {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    border-width: 1px;
+    border-color: grey;
+    height: 23px;
+}
+
+.head {
+    text-align: left;
+    font-size: 28px;
+    border-width: 2px;
+    border-color: black;
+    padding: 0px 4px 0px;
+    width: 60px;
+}
+
+.suit, .head {
+    border-style: solid;
+}
+
+.table1 {
+    border-collapse: collapse;
+}
+
+.player {
+    font-size: 28px;
+}
+
+.playerCard, .dealerCard {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    color: green;
+    padding-left: 8px;
+    font-size: 20px;
+    width: 80px;
+    height: 34px;
+}
+
+.playertable, .dealertable {
+    border-collapse: collapse;
+}
+
+.scoreheading{
+    text-align: right;
+    font-size: 22px;
+}
+
+.score{
+    text-align: right;
+    width: 50px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    font-size: 20px;
+}
+
+.win{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 208, 0);
+    font-size: 26px;
+    color: #ce8602;
+}
+
+.loss{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4a412a;
+    font-size: 26px;
+    color: #746542;
+}
